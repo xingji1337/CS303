@@ -1,0 +1,6 @@
+﻿  Array_Edit.cpp
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.h(52,6): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.h(52,6): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.cpp(76): warning C4715: 'Array_Edit::lookup_integer': not all control paths return a value
+  Assignment1.vcxproj -> C:\Users\youda\source\repos\Assignment1\x64\Debug\Assignment1.exe
