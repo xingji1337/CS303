@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.h(1,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.h(53,6): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\youda\source\repos\Assignment1\Assignment1\Array_Edit.h(53,6): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Assignment1.vcxproj -> C:\Users\youda\source\repos\Assignment1\x64\Debug\Assignment1.exe
