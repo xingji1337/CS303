@@ -4,20 +4,22 @@ Xing Ji*/
 #include <string>
 #include "Array_Edit.h"
 #include <fstream>
+#include <stdexcept>
 
 /**Default contructor that will set the array size at 0 and capacity to 100*/
 Array_Edit::Array_Edit ()
 {
 	size = 0;
 	capacity = 100;
-	arr[capacity];
 }
 
-/**/
+/**Contruct an Array_Edit instance
+		@param newCapacity it will istantiate a new class with an array with the capacity set at whatever user chooses*/
 Array_Edit::Array_Edit(int newCapacity)
 {
 	size = 0;
 	capacity = newCapacity;
+	arr[capacity];
 }
 
 /** Functions to load the data file.
@@ -82,16 +84,27 @@ int Array_Edit::lookup_integer(const int& integer) const
 		@param newInteger the new value of the integer*/
 void Array_Edit::set_integer(int index, int newInteger)
 {
-	if (index >= size)//check if the index is valid
+	if (index >= size && index < 0)//check if the index is valid
 	{
-		std::cout << "Choose a valid index" <<std::endl;
+		std::cout << "Choose a valid index" << std::endl;
 	}
-	else
+	try
 	{
 		int oldValue = arr[index];//save old value to show the user
 		arr[index] = newInteger;
 		std::cout << "The old value at index " << index << " was " << oldValue 
 			<< " and the new value is now set as " << newInteger << "." << std::endl;
+	}
+	catch (std::exception& ex)
+	{
+		std::cerr << "Fatal error occurred in set_integer function" << std::endl;
+		std::cerr << ex.what() << std::endl;
+		abort();
+	}
+	catch (...)
+	{
+		std::cerr << "Undefined exception occurred in set_integer function" << std::endl;
+		abort();
 	}
 
 }
@@ -104,10 +117,21 @@ void Array_Edit::add_integer(int newInteger)
 	{
 		std::cout << "The array is full, please remove integers before adding more." << std::endl;
 	}
-	else
+	try
 	{
 		arr[size] = newInteger; //add integer to the end of the array
 		size++; //update the size
+	}
+	catch (std::exception& ex)
+	{
+		std::cerr << "Fatal error occurred in add_integer function" << std::endl;
+		std::cerr << ex.what() << std::endl;
+		abort();
+	}
+	catch (...)
+	{
+		std::cerr << "Undefined exception occurred in set_integer function" << std::endl;
+		abort();
 	}
 
 	std::cout << "The array after adding the new integer:" << std::endl;

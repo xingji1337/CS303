@@ -5,6 +5,7 @@ Xing Ji*/
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <stdexcept>
 
 int main()
 {

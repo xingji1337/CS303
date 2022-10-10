@@ -2,6 +2,7 @@
 #define ARRAY_EDIT_H_
 #include <iostream>
 #include <string>
+#include <stdexcept>
 
 /** Specification file for the array edit*/
 class Array_Edit {
@@ -50,7 +51,7 @@ private:
 	std::string source_name;
 	
 	/**The array containing the integers*/
-	int arr [];
+	int arr [100];
 };
 
 
