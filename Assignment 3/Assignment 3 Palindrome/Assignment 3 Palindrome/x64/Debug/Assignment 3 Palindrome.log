@@ -1,0 +1,5 @@
+﻿  Palindrome Finder.cpp
+C:\Users\youda\source\repos\Assignment 3\Assignment 3 Palindrome\Assignment 3 Palindrome\Palindrome Finder.cpp(36,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Source.cpp
+  Generating Code...
+  Assignment 3 Palindrome.vcxproj -> C:\Users\youda\source\repos\Assignment 3\Assignment 3 Palindrome\x64\Debug\Assignment 3 Palindrome.exe
