@@ -23,5 +23,4 @@ Move\_to\_rear will take the person in the front of the queue and move them to t
 ![image](https://user-images.githubusercontent.com/81594624/206015647-46fd228e-db5b-4e56-b0fb-54d765a29173.png)
 
 Quit will stop the program:
-
-![image](https://user-images.githubusercontent.com/81594624/206015695-8ec43eb1-f824-496b-99dd-2625e82bb76c.png)
+![image](https://user-images.githubusercontent.com/81594624/206015806-b97fbe1e-328f-45da-8403-8671fb709c12.png)
