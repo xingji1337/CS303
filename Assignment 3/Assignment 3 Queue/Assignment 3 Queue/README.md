@@ -1,6 +1,6 @@
 Run Source and follow the prompts there should be 6 selections all selections except quit will return you to the same menu:
 
-![](RackMultipart20221206-1-8dpil1_html_be83b35857b4f1e2.png)
+![image](https://user-images.githubusercontent.com/81594624/206015460-e36cc122-8ab9-40c3-bd71-ff821f4c6a52.png)
 
 Push will add a new customer into the queue after the user inputs the name:
 
