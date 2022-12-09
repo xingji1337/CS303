@@ -1,0 +1,35 @@
+//Xing Ji - CS303 Assignment 3
+#ifndef STATE_DATA_MAP_TC_
+#define STATE_DATA_MAP_TC_
+
+#include <iostream>
+#include <map>
+#include <string>
+#include <set>
+
+
+/** Outputs data stored in stateDataMap*/
+template<typename Key_Type, typename Value_Type>
+void State_Data_Map<Key_Type, Value_Type>:: outputStateDataMap()
+{
+	for (std::map<std::string, std::string>::const_iterator itr = stateMap.begin(); itr != stateMap.end(); ++itr)
+	{
+		std::cout << itr->first << " " << itr->second << std::endl;
+	}
+}
+
+/**Change paired value*/
+void changeCapital(std::string newCapital)
+{
+	//STUB
+}
+
+/**Outputs the capitalName paired with the stateName*/
+std::string outputCapital(std::string stateName)
+{
+	//STUB
+	return "";
+}
+
+
+#endif
